@@ -31,6 +31,15 @@ public class Test2Review {
             }
             System.out.println();
         }
+
+    
+        System.out.println();
+        for(int i = numbers.length - 1; i >= 0; i--){
+            for(int j = numbers[i].length - 1; j >= 0; j--){
+                System.out.printf("%d ", numbers[i][j]);
+            }
+            System.out.println();
+        }
     }
     
 }
