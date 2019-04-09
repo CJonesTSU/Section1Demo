@@ -15,7 +15,15 @@ public class Test2Review {
      * @param args the command line arguments
      */
     public static void main(String[] args) {
-        // TODO code application logic here
+        int[][] numbers = {{1,2,3,4,5},
+                           {6,7, 8,9,10},
+                           {11,12,13,14,15}};
+        for(int i = 0; i < numbers.length; i++){
+            for(int j = 0; j < numbers[i].length; j++){
+                System.out.printf("%d ", numbers[i][j]);
+            }
+            System.out.println();
+        }
     }
     
 }
